@@ -8,6 +8,14 @@ void main() {
       await initApp();
       await $.pumpWidgetAndSettle(const MyApp());
 
+      await $.native.grantPermissionWhenInUse();
+
+      await $('Go to the quiz').tap();
+
+      await $('Start').tap();
+
+      await $(TextField).enterText('text');
+
       // write your code here
 
       await $('Start again').waitUntilVisible();
