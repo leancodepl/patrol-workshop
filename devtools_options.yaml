@@ -1,0 +1,3 @@
+extensions:
+  - patrol: true
+  - provider: true
