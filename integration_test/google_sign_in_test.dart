@@ -26,10 +26,9 @@ class Strings {
 void main() {
   patrolTest(
     'sign up',
-    framePolicy:
-        LiveTestWidgetsFlutterBindingFramePolicy.fullyLive, // powiedzieć
+    framePolicy: LiveTestWidgetsFlutterBindingFramePolicy.fullyLive,
     nativeAutomatorConfig: const NativeAutomatorConfig(
-      keyboardBehavior: KeyboardBehavior.alternative, // powiedzieć?
+      keyboardBehavior: KeyboardBehavior.alternative,
     ),
     ($) async {
       await setUp($.native);
@@ -41,7 +40,7 @@ void main() {
       await $.native.grantPermissionWhenInUse();
 
       await $(K.signInWithGoogleButton)
-          .tap(settlePolicy: SettlePolicy.noSettle); // powiedzieć
+          .tap(settlePolicy: SettlePolicy.noSettle);
 
       await $.native.tap(
         Selector(
@@ -89,7 +88,7 @@ Future<void> setUp(NativeAutomator automator) async {
     text: Strings.email,
   );
 
-  await Future<void>.delayed(const Duration(milliseconds: 2000)); // powiedzieć
+  await Future<void>.delayed(const Duration(milliseconds: 2000));
 
   await automator.tap(
     Selector(
