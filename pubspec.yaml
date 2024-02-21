@@ -33,7 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   leancode_lint: ^6.0.0
-  patrol: 3.0.2+1
+  patrol: 3.5.2
 
 flutter_launcher_icons:
   android: 'launcher_icon'
