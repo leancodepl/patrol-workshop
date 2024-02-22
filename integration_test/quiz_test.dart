@@ -9,7 +9,9 @@ void main() {
       await initApp();
       await $.pumpWidgetAndSettle(const MyApp());
 
-      await $.native.grantPermissionWhenInUse();
+      if (await $.native.isPermissionDialogVisible()) {
+        await $.native.grantPermissionWhenInUse();
+      }
 
       await $('Go to the quiz').tap();
 
