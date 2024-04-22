@@ -32,8 +32,10 @@ dev_dependencies:
   flutter_native_splash: ^2.3.4
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
   leancode_lint: ^6.0.0
-  patrol: 3.5.2
+  patrol: 3.6.1
 
 flutter_launcher_icons:
   android: 'launcher_icon'
