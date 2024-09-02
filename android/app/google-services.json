@@ -1,0 +1,55 @@
+{
+    "project_info": {
+      "project_number": "161899692976",
+      "project_id": "patrol-poc",
+      "storage_bucket": "patrol-poc.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:161899692976:android:fc3ef7ca1bb87f10d54c75",
+          "android_client_info": {
+            "package_name": "com.example.patrol_challenge"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "161899692976-mv2lcsgoqv6oga1ff12pob27e7e76le3.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.example.patrol_challenge",
+              "certificate_hash": "acf4462405c1dbb544346b99f6002f78f89fa5c3"
+            }
+          },
+          {
+            "client_id": "161899692976-fn8jpugc9l46vflasmt13giug0668c2q.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyASXZ70T--8vWqtL-jHg7T3711NAUTCryY"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "161899692976-5ogii6sbg3ljegvv7opvjs90u0fue4kh.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "161899692976-k4ntr8vfd09srrq7o5ja59i1mudknuqg.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "com.example.patrolChallenge"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
+  

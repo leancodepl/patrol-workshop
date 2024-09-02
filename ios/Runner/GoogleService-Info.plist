@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>161899692976-ksb464fv3r9eq3r58n35gficunijd7kv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.161899692976-ksb464fv3r9eq3r58n35gficunijd7kv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>161899692976-aegvrr07n541kn1dgd3k6pkmbciua1i4.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA5oY79bWeuzNrr5gpEI9HDc1J9xs4eakU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>161899692976</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.patrolConf</string>
+	<key>PROJECT_ID</key>
+	<string>patrol-poc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>patrol-poc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:161899692976:ios:e6c21bd37b49a052d54c75</string>
+</dict>
+</plist>
