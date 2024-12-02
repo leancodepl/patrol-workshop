@@ -8,9 +8,13 @@ void main() {
       await initApp();
       await $.pumpWidgetAndSettle(const MyApp());
 
+      if (await $.native.isPermissionDialogVisible()) {
+        await $.native.grantPermissionOnlyThisTime();
+      }
+
       // write your code here
 
-      await $('Start again').waitUntilVisible();
+      //await $('Start again').waitUntilVisible();
     },
   );
 }

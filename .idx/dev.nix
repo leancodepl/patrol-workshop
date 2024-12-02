@@ -42,6 +42,10 @@
           # flutter build web --profile --dart-define=Dart2jsOptimization=O0
         '';
       };
+
+      onStart = {
+        patrol-develop = "patrol develop -t integration_test/quiz_test.dart --flavor dev";
+      };
       
       # To run something each time the workspace is (re)started, use the `onStart` hook
     };
@@ -49,13 +53,10 @@
     previews = {
       enable = true;
       previews = {
-        web = {
-          command = ["flutter" "run" "--machine" "-d" "web-server" "--web-hostname" "0.0.0.0" "--web-port" "$PORT"];
-          manager = "flutter";
-        };
         android = {
-          command = ["flutter" "run" "--machine" "-d" "android" "-d" "localhost:5555"];
-          manager = "flutter";
+          #command = ["patrol" "develop" "-t" "integration_test/quiz_test.dart" "--machine" "-d" "android" "-d" "localhost:5555"];
+          command = ["yes"];
+          manager = "android";
         };
       };
     };

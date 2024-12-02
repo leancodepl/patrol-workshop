@@ -29,7 +29,7 @@ android {
     compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
-    namespace "com.example.patrol_challenge"
+    namespace "pl.leancode.patrol.challenge"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -45,13 +45,22 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.patrol_challenge"
+        applicationId "pl.leancode.patrol.challenge"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
+
+        testInstrumentationRunner "pl.leancode.patrol.PatrolJUnitRunner"
+        testInstrumentationRunnerArguments clearPackageData: "true"
+
     }
+
+    testOptions {
+        execution "ANDROIDX_TEST_ORCHESTRATOR"
+    }
+
 
     buildTypes {
         release {
@@ -79,4 +88,8 @@ android {
 
 flutter {
     source '../..'
+}
+
+dependencies {
+    androidTestUtil "androidx.test:orchestrator:1.4.2"
 }
